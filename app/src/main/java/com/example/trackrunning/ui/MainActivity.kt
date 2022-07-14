@@ -1,9 +1,9 @@
-package com.example.trackrunning
+package com.example.trackrunning.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
-import com.example.trackrunning.db.Run
+import com.example.trackrunning.R
 import com.example.trackrunning.db.RunDao
 import dagger.hilt.android.AndroidEntryPoint
 import javax.inject.Inject
