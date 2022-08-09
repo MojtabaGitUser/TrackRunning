@@ -13,7 +13,7 @@ android {
 
     defaultConfig {
         applicationId "com.example.trackrunning"
-        minSdk 23
+        minSdk 24
         targetSdk 32
         versionCode 1
         versionName "1.0"
@@ -100,8 +100,11 @@ dependencies {
     implementation "com.google.dagger:hilt-android:$dagger_version"
     kapt "com.google.dagger:hilt-android-compiler:$dagger_version"
 
-    // Easy Permissions
+    // For developers using AndroidX in their applications
     implementation 'pub.devrel:easypermissions:3.0.0'
+
+    // For developers using the Android Support Library
+    implementation 'pub.devrel:easypermissions:2.0.1'
 
     // Timber
     implementation 'com.jakewharton.timber:timber:4.7.1'
